@@ -1,9 +1,14 @@
+import SectionTitle from "@/components/SectionTitle";
 import Container from "../../Container";
 
 const FeaturedProducts = () => {
   return (
     <Container className="my-10">
-      <div>FeaturedProducts</div>
+      <SectionTitle
+        title="See our"
+        highlight="featured products"
+        link="/products"
+      />
     </Container>
   );
 };
