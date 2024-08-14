@@ -1,23 +1,27 @@
 import assets from "@/assets";
 import HeroItemCard from "@/components/HeroItemCard";
+import Link from "next/link";
 import Container from "../../Container";
+import { Button } from "../../button";
 
 const HeroSection = () => {
   return (
     <Container className="my-10">
       <div className="flex flex-col md:flex-row items-center">
         <div>
-          <div>
-            <p className="text-[16px]">Pharmacy</p>
-            <h1 className="text-[34px] font-bold text-orange-500 leading-[110%] mt-4">
-              The place where you can find all medications
-            </h1>
-            <p className="text-[14px] mt-1">
-              We believe that improving both the occasional and ongoing
-              engagement experience is necessary to making care dramatically
-              better.
-            </p>
-          </div>
+          <p className="text-[16px]">Pharmacy</p>
+          <h1 className="text-[34px] font-bold text-orange-500 leading-[110%] mt-4">
+            The place where you can find all medications
+          </h1>
+          <p className="text-[14px] mt-1">
+            We believe that improving both the occasional and ongoing engagement
+            experience is necessary to making care dramatically better.
+          </p>
+          <Link href="/">
+            <Button className="mt-4 bg-orange-500 hover:bg-orange-700">
+              Explore
+            </Button>
+          </Link>
         </div>
 
         {/* hero image */}

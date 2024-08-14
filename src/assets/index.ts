@@ -8,13 +8,10 @@ const assets = {
     hero3: require("../assets/hero-imgs/pot.jpg"),
     hero4: require("../assets/hero-imgs/ampul.jpg"),
   },
-  //   categories: {
-  //     lobster: require("./categories/lobster.jpg"),
-  //     insects: require("./categories/scallops.jpg"),
-  //     slat: require("./categories/bass.jpg"),
-  //     sweet: require("./categories/salmon.jpg"),
-  //     smallBig: require("./categories/shapper.jpg"),
-  //     squid: require("./categories/trout.jpg"),
-  //   },
+  categories: {
+    primary: require("../assets/category-image/Primary Category.jpg"),
+    secondary: require("../assets/category-image/Secondary Category.jpg"),
+    tertiary: require("../assets/category-image/Tertiary Category.jpg"),
+  },
 };
 export default assets;
