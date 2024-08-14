@@ -6,7 +6,7 @@ type TProps = { title: string; highlight: string; link: string };
 
 const SectionTitle = ({ title, highlight, link }: TProps) => {
   return (
-    <div className="flex  justify-between items-center border-b border-[#008ECC] pb-2">
+    <div className="flex  justify-between items-center border-b border-orange-500 pb-2">
       <h4 className="text-[#666666] text-base md:text-xl ">
         {title}
         <span className="text-orange-500 text-xl md:text-2xl font-semibold">
