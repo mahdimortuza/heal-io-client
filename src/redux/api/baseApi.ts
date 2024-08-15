@@ -5,7 +5,7 @@ import { tagTypeList } from "../tag-types";
 export const baseApi = createApi({
   reducerPath: "api",
   baseQuery: axiosBaseQuery({
-    baseUrl: "https://ocean-catch-server.vercel.app/api/v1",
+    baseUrl: process.env.BASE_API as string,
   }),
   endpoints: () => ({}),
   tagTypes: tagTypeList,

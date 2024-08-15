@@ -70,7 +70,10 @@ const products = [
   },
 ];
 
-const FeaturedProducts = () => {
+const FeaturedProducts = async () => {
+  const res = await fetch(`${process.env.BASE_API}/product`);
+  const { data: items } = await res.json();
+  console.log(items);
   return (
     <Container className="my-10">
       <SectionTitle
