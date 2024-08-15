@@ -9,7 +9,6 @@ const AllProducts = async () => {
     },
   });
   const { data } = await res.json();
-  console.log(data);
   return (
     <Container className="my-10">
       <SectionTitle
