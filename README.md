@@ -1,8 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Heal.io client
 
-## Getting Started
+## Description
 
-First, run the development server:
+Heal.io client is the frontend application, developed for the people who want to buy their products online.
+This application is built using TypeScript, Next.js, Redux.js, and Axios.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Scripts](#scripts)
+- [Environment Variables](#environment-variables)
+- [API Documentation](#api-documentation)
+- [Tests](#tests)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+First, clone the project from [https://github.com/mahdimortuza/heal-io-client.git](https://github.com/mahdimortuza/heal-io-client.git)
+
+Then, run the development server:
+install dependencies
+
+```bash
+npm install
+```
+
+## Scripts
+
+## Running the application
 
 ```bash
 npm run dev
@@ -14,24 +40,27 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Setup your environment variables in the .env.example file and rename the file to .env
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `BASE_API`= Your backend API
 
-## Learn More
+# Dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+- `nextjs`: Framework for react.js.
+- `react-redux`: Library for managing states.
+- `axios`: Library for managing api calls.
+- `lucide-react`: Library for icons.
+- `react-icons`: Library for icons.
+- `redux-persist`: Library for managing persisted states.
+- `tailwind`: Css library for styling.
+- `shad-cn`: Library for tailwind components.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open with your browser to see the result.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Check the live deployed link : [https://heal-io-client.vercel.app/](https://heal-io-client.vercel.app/)
 
-## Deploy on Vercel
+# Tests
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# heal-io-client
+- No test cases are written yet.
